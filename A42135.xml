@@ -1,0 +1,595 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Essayes and characters written by L.G.</title>
+            <author>Griffin, Lewis.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1661</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 81 KB of XML-encoded text transcribed from 50 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A42135</idno>
+            <idno type="STC">Wing G1982A</idno>
+            <idno type="STC">ESTC R40526</idno>
+            <idno type="EEBO-CITATION">19347775</idno>
+            <idno type="OCLC">ocm 19347775</idno>
+            <idno type="VID">108748</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A42135)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 108748)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1671:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Essayes and characters written by L.G.</title>
+                  <author>Griffin, Lewis.</author>
+               </titleStmt>
+               <extent>[12], 83 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London printed :</pubPlace>
+                  <date>1661.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Griffin by Wing.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:108748:1"/>
+            <pb facs="tcp:108748:1" rendition="simple:additions"/>
+            <p>Eſſayes AND CHARACTERS.</p>
+            <p>Written by <hi>L. G.</hi>
+            </p>
+            <p>LONDON, Printed in the year, 1661.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:108748:2"/>
+            <pb facs="tcp:108748:2"/>
+            <head>TO THE READER.</head>
+            <opener>
+               <salute>READER,</salute>
+            </opener>
+            <p>I Suppoſe thou art now come into the <hi>Stati<g ref="char:EOLhyphen"/>oners</hi> Shop, and inquireſt of him if he have <hi>any thing that is new</hi>; were <hi>Solomon</hi> at thy elbow he would tel thee <hi>there is nothing new
+<pb facs="tcp:108748:3"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:108748:3"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:108748:4"/>
+under the Sun</hi>; But it is common with Men, as wel as children, <hi>to long for a new nothing</hi>; And therefore to ſatisfie thy humour, he wil ſhew thee this Book, per<g ref="char:EOLhyphen"/>haps (for his own advan<g ref="char:EOLhyphen"/>tage) he wil ſay it is a <hi>pret<g ref="char:EOLhyphen"/>ty piece,</hi> if he does, I will aſſure thee he is not of my opinion: for whether it will be for his profit and thy pleaſure or not, <hi>I</hi> can<g ref="char:EOLhyphen"/>not tell, I am ſure it will not be for my credit.</p>
+            <p>It hath been the uſuall <hi>Apologie</hi> of thoſe who ap<g ref="char:EOLhyphen"/>peare
+<pb facs="tcp:108748:4"/>
+in print, that it was againſt their own wils, and through the importunate deſire of friends, <hi>(forſooth becauſe the World ſhould think them modeſt)</hi> but our fault admits of no ſuch lying excuſe, for it was meerly my own folly and raſhneſſe that hath thus thruſt me upon the Stage of the World, where (I feare) I ſhall be hiſs'd ra<g ref="char:EOLhyphen"/>ther then deſerve a <hi>plau<g ref="char:EOLhyphen"/>dite.</hi>
+            </p>
+            <p>
+               <hi>I</hi> confeſſe <hi>I</hi> would wil<g ref="char:EOLhyphen"/>lingly have called in my
+<pb facs="tcp:108748:5"/>
+Book when it were but half printed, for it appear<g ref="char:EOLhyphen"/>ed unto me to ſavour more of <hi>Drollery</hi> then <hi>Divinity,</hi> which my ſecond thoughts or reflections did clearly apprehend, I ſaw that there were but few pages, and yet in thoſe few more <hi>Er<g ref="char:EOLhyphen"/>rata</hi>'s both of the Author and <hi>Printer,</hi> then in ſome great Volumes, a true <hi>Looking-glaſſe</hi> to repreſent my life and actions, for my yeares have not much ex<g ref="char:EOLhyphen"/>ceeded ſix and twenty; and yet perhaps in this ſmall
+<pb facs="tcp:108748:5"/>
+ſpan, or little <hi>Epitome</hi> of age you may read more errors, and miſcarriages, then in his, whoſe years are written in folio; and hath outlived fourſcore; but <hi>I</hi> hope Gods mercy will for<g ref="char:EOLhyphen"/>give the one, and thy in<g ref="char:EOLhyphen"/>genuity pardon the other.</p>
+            <p>However I have now ventured to ſend it forth into the World, and where it ſhall find entertainment I know not, perhaps it may light into ſome Ladies lap and have ſo much honour as to poſſeſſe the place of
+<pb facs="tcp:108748:6"/>
+her <hi>little Dog</hi>; but let her beware how ſhe handles it for if ſhe be not vertuous <hi>It will bite her.</hi>
+            </p>
+            <p>Yet <hi>I</hi> have not in any of theſe following diſ<g ref="char:EOLhyphen"/>courſes reflected upon any particular Perſon, ſave on<g ref="char:EOLhyphen"/>ly in the Character of a <hi>Scandalous Miniſter,</hi> where <hi>I</hi> took for my Copy one whom I had ſome cauſe to know in the Country, and who (I think) having an intent that <hi>I</hi> ſhould draw his picture) came to me at <hi>London</hi> to give me a ſecond
+<pb facs="tcp:108748:6"/>
+view of his Drunkenneſſe and ſwearing; <hi>I</hi> had (in<g ref="char:EOLhyphen"/>deed) limned him a little more to the life, but that I thought it a ſin to foul too much paper with ſo baſe a ſubject. I have been too guilty of that already; for alas! whileſt I was wri<g ref="char:EOLhyphen"/>ting my mind was like a <hi>troubled Sea</hi>; and there<g ref="char:EOLhyphen"/>fore wonder not if my pen caſt up <hi>mire</hi> and <hi>dirt.</hi>
+            </p>
+            <p>To be too tart and ſa<g ref="char:EOLhyphen"/>tyrical hath been alwayes my infirmity, I was once complained of to the <hi>Ju<g ref="char:EOLhyphen"/>ſtices,</hi>
+               <pb facs="tcp:108748:7"/>
+for going about <hi>to piſtoll a blind Prieſt with an Ink-horn,</hi> nor was it ſtrange for might <hi>I</hi> have had the benefit of the <hi>Preſs</hi> no pi<g ref="char:EOLhyphen"/>ſtoll could have more wounded his body then my Inkhorn would have done his reputation.</p>
+            <p>
+               <hi>Printing</hi> and <hi>Guns</hi> are two modern inventions, &amp; the one as well as the o<g ref="char:EOLhyphen"/>ther hath made the <hi>leaden Mine</hi> as diſtructive to man<g ref="char:EOLhyphen"/>kind as the golden; Men may be ſaid to ſhoot from the <hi>Preſs</hi> as well as from
+<pb facs="tcp:108748:7"/>
+the <hi>Artillery,</hi> ſome (like <hi>Jehu)</hi> to wound, others (like <hi>Jonathan</hi>) to warn; that is either by writing of <hi>railing invectives,</hi> or <hi>ſober exhortations; Polemicall diſcourſes</hi> are like ſhooting at a mark, which mark ought to be truth, <hi>ſchiſma<g ref="char:EOLhyphen"/>tical Pamphlets</hi> are <hi>Grana<g ref="char:EOLhyphen"/>do's, Playes,</hi> and <hi>Romances</hi> are ſquibs &amp; crackers which though they wound not with their bullets, yet they blind with their powder.</p>
+            <p>
+               <hi>Reader,</hi> amongſt which of theſe <hi>fire-men</hi> thou wilt rank me, I know not; only I be<g ref="char:EOLhyphen"/>ſeech thee put on charity, (for thy ſpecta<g ref="char:EOLhyphen"/>cles) and read on.</p>
+            <trailer>VALE.</trailer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:108748:8"/>
+            <head>A Table of the ſeveral Subjects of this Book.</head>
+            <list>
+               <head>VIZ. ☞ <hi>of</hi>
+               </head>
+               <item>Man in generall.</item>
+               <item>A religious Prince.</item>
+               <item>A reverend Divine.</item>
+               <item>A vertuous Woman.</item>
+               <item>A rigid Presbyterian.</item>
+               <item>A debauch'd Courtier.</item>
+               <item>An <g ref="char:V">Ʋ</g>niverſity Bedle.</item>
+               <item>A Phanatick.</item>
+               <item>A Whore.</item>
+               <item>A happy Ruſtick.</item>
+               <item>A beaſtly Drunkard.</item>
+               <item>An ignorant old Man.</item>
+               <item>A Player.</item>
+               <item>A mechanick Magiſtrate.</item>
+               <item>A ſcandalous Miniſter.</item>
+               <item>A loyal Subject.</item>
+               <item>A Male-content.</item>
+               <item>A noble Spirit.</item>
+               <item>A bad Wife.</item>
+               <item>The Rump-Parliament.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:108748:8"/>
+            <head>
+               <hi>Eſſayes</hi> and <hi>Characters.</hi>
+            </head>
+            <div type="part">
+               <head>Of man in general.</head>
+               <p>
+                  <seg rend="decorInit">T</seg>His viſible world is a great Book written by the hand of God for his own glory and mans uſe; Every Creature is a leaf or page of this Volume; but man is the picture of the Author ſet in the Frontiſpice; He that abuſes the Creature, makes a baſe Comment upon a glorious Text; but he that abuſes himſelf, goes about to deface and blot out the effigies of his Crea<g ref="char:EOLhyphen"/>tor.</p>
+               <p>Man conſiſts of a ſoul and a body, which are never ſeparated until death, and meet not again till the reſurrecti<g ref="char:EOLhyphen"/>on.</p>
+               <p>
+                  <pb n="2" facs="tcp:108748:9"/>It was the morning ſalutation of the page to King <hi>Philip,</hi> Remember that you are a man; that is, that you have ſoule and body; let the ſloathfull man remember that he hath a ſoule that muſt be ſaved; and let the proud man remember, he hath a body that muſt die; and then the one will not live like a beaſt, neither will the other think himſelfe to be an Angel.</p>
+               <p>The body is but the tent or cot<g ref="char:EOLhyphen"/>tage of the ſoul, or rather that mantle which, when the ſpirit, (like <hi>Elias)</hi> aſcends into heaven, is caſt down and left behind upon the earth; and (as it is ſaid concerning celeſtial and terre<g ref="char:EOLhyphen"/>ſtrial bodies,) ſo of theſe two; <hi>The glory of the body is one, and the glory of the ſouls</hi> is, <hi>another</hi>; What is it in which the body or fleſh can glory? 'tis not ſtrength, beauty, or age; for in ſtrength the beaſts and fiſhes, in beauty the plants and flowers, in age the very Rocks and Stones doe far excel men. In breife, the body of man is but
+<pb n="3" facs="tcp:108748:9"/>
+a brittle earthen veſſel, the center of diſeaſes, a daughter to corruption, a ſiſter to the <hi>wormes,</hi> a tenant to the grave, a little duſt carried by the wind of his vital breath, which when the wind ceaſes, falls to the ground, and reſts in the boſome of the earth from whence it was Taken.</p>
+               <p>Thus the outward or carnal man is not an object of admiration but pitty; He lies like <hi>Lazarus</hi> upon the dunghil of the earth; his ſins are his ſores, his righteouſneſs his rags; his friends that flatter him, and his ene<g ref="char:EOLhyphen"/>mies that reproach him, are all but dogs; ſome bark, ſome bite, ſome fawn, ſome lick his ſores. He came naked into the world; and whatſoever he hath he beg'd it of Got, and bor<g ref="char:EOLhyphen"/>rowed it of his fellow creatures; His Pilgrimage is from <hi>Jeruſalem</hi> to <hi>Jericho,</hi> from the womb to the tomb; his conſtant companions are vanity and vexation, the one attends him in health and Wealth, the other
+<pb n="4" facs="tcp:108748:10"/>
+in ſickneſs and poverty; the one would draw him to preſumption, the other would drive him to deſpair; in ſhort, there is nothing does more reſemble his life then the taking a pipe of to<g ref="char:EOLhyphen"/>bacco; for his gains &amp; proffits are that which he ſucks in, his expences &amp; diſ<g ref="char:EOLhyphen"/>burſtments that which he puffes out his actions like the ſmoake, are offen<g ref="char:EOLhyphen"/>ſive to many, and pleaſing to few or none, at length he knocks out the aſhes and ſo Concludes.</p>
+               <p>But the ſoul is mans more noble part which is capable of having com<g ref="char:EOLhyphen"/>munion with God, and therefore ought not to be ſubject to the body. The body is <hi>Hagar</hi> the <hi>Bondwoman,</hi> But the ſoul is <hi>Sarah</hi> the <hi>free Woman; Sarah</hi> muſt not be a ſlave to <hi>Hagar</hi>; if the fleſh deny ſubjection to the ſpirit, ſhe muſt like <hi>Hagar</hi> (by morti<g ref="char:EOLhyphen"/>fication,) be put away that ſo the free born ſoul may enjoy her liberty which is to ſerve God. The <hi>Philoſo<g ref="char:EOLhyphen"/>pher</hi> gives this definition of the ſoul;
+<pb n="5" facs="tcp:108748:10"/>
+                  <hi>Anima Rationalis eſt perfectio Corporis Organici,</hi> The Perfection of the bo<g ref="char:EOLhyphen"/>dy; Now as the ſoul is the perfection of the body, ſo is Chriſt the perfe<g ref="char:EOLhyphen"/>ction of the ſoul.</p>
+               <p>For as the body without the ſoul is but a loathſom lump of rotteneſs and putrefaction; ſo the ſoul without Chriſt, is a thing dead in ſin as odious in the ſight of God as that in the eyes of men; As ſalt that hath loſt its ſa<g ref="char:EOLhyphen"/>vour ſuch is the ſoul that hath loſt its Saviour.</p>
+               <p>There are two faculties of a Ratio<g ref="char:EOLhyphen"/>nal ſoul; the will and the underſtand<g ref="char:EOLhyphen"/>ing which mutually help and aſſiſt one the other; I have heard of two men which travelled together; the one blind and the other lame; the blind carried the lame; and the lame direct<g ref="char:EOLhyphen"/>ed the blind. The will of man is blind and therefore muſt be directed by the underſtanding; The underſtand<g ref="char:EOLhyphen"/>ing is lame, and therefore muſt be car<g ref="char:EOLhyphen"/>ried by the will; When truth it ſelf
+<pb n="6" facs="tcp:108748:11"/>
+treated of ſelf denial, he commanded us to cut off Right hands and to pull out right eyes; Where note that he means not the members of the body, but the faculties of the ſoul, the un<g ref="char:EOLhyphen"/>derſtanding is the ſouls eye, by w<hi rend="sup">ch</hi> ſhe ſees, The will is her hand by which ſhe acts and theſe or ſaid to offend when they offend God; but when the one is joyned with faith, and the other with obedience, they are both inſtrumental to bring us to the enjoyment of our Saviour; for by the underſtanding we know Chriſt and by the will we lay hold of him.</p>
+               <p>Every man is either ſpiritual, or carnal: like <hi>Solomons</hi> two Harlots, The one carries a living child in her boſome that is the ſpirit, the other a dead one that is the fleſh; The living child is that which breaths in holy deſires, cries in devout prayers, ſucks in hearing the word, grows in grace and is made perfect in glory; but the dead neither growes, cries, feeds, nor
+<pb n="7" facs="tcp:108748:11"/>
+breaths, but is a peice of formal deceit a religious carcaſe, a whited ſepul<g ref="char:EOLhyphen"/>cher, which is beautiful without, but within ful of corruption.</p>
+               <p>The firſt thing which he that was miraculouſly reſtored to his ſight beheld, was men, like trees, walking; there is nothing in all the creation ſo fit an emblem of man as a tree; for as in trees there are three things to be obſerved; leaves, bloſſomes, and fruit; ſo alſo in men there are three things to be conſidered; words thoughts and deeds; He that is onely verbally good, is like the Bar<g ref="char:EOLhyphen"/>ren fig tree which brought forth nothing but leaves; The words of men are like the leaves of the trees, yet oftentimes we know by the leaves what Fruit the tree bear<g ref="char:EOLhyphen"/>eth; the words of the malicious are like the leaves of Holly, very of<g ref="char:EOLhyphen"/>fenſive and full of prickles, the words of the unconſtant are like the leaves of Aſpine, continualy wavering, and
+<pb n="8" facs="tcp:108748:12"/>
+not to be credited; the words of the deceitful are like the fig leaves which they ſew together, and make both coverings for their nakedneſs and cloakes for their iniquity; as for thoughts they are but bloſſoms, for he that onely thinks to doe good and puts it not into excecution (like K. <hi>Agrippa</hi> or the young man in the Goſpel) is a falſe fair promiſing tree that is full of bloſſomes but the fruit is nipt in the bud, blaſted and never comes to perfection; but mens actions are their fruits; ſome are like ſower grapes which ſet on edge the teeth of all with whom they have to doe; others like the apples of <hi>Sodome,</hi> ap<g ref="char:EOLhyphen"/>pear fair without, but at the firſt touch turn to aſhes; but a godly man like a good tree brings forth plea<g ref="char:EOLhyphen"/>ſant fruit, which like the ſweetneſſe of the Vine, both pleaſes God, and refreſhes men. To conclude, all men are trees; they which are good, ſhall be removed from hence to Pa<g ref="char:EOLhyphen"/>radiſe;
+<pb n="9" facs="tcp:108748:12"/>
+but they which are evil, ſhall be cut down and caſt into the fire.</p>
+            </div>
+            <div type="part">
+               <head>A Religious Prince.</head>
+               <p>IS a repreſentative of God, in a threefold reſpect; as a Man, as a King, and as a Chriſtian; He is com<g ref="char:EOLhyphen"/>poſed of Greatneſs and Goodneſs, the Conjunction of which Stars por<g ref="char:EOLhyphen"/>tends happineſs to his People; In his breaſt is the Throne of Honour, and the <hi>Parliament</hi> of Vertue; where Power and and Pietie meet together, and Majeſtie and Mercie kiſs each o<g ref="char:EOLhyphen"/>other. The Rod of <hi>Moſes</hi> brought not ſo many miſeries upon <hi>Egypt,</hi> as his Scepter brings bleſſings upon <hi>England</hi>; His very preſence makes his Land become a <hi>Canaan</hi> for his in<g ref="char:EOLhyphen"/>nocence and ſweetneſs, like milk and hony refreſh the hearts of all his Loy<g ref="char:EOLhyphen"/>all Subjects.</p>
+               <p>To make him a Man after Gods
+<pb n="10" facs="tcp:108748:13"/>
+own heart, he hath been educated in afflictions; he hath carried the Croſſe before he wore the Crown, and is religious by his ſecond birth, as well as royal by his firſt; ſo that he is a King not onely by deſcent but me<g ref="char:EOLhyphen"/>rit; for there is none fit to be the Viceroy of Chriſt, as he who hath been twelve yeares his Standard-bearer.</p>
+               <p>If you look into the Court, wonder not to ſee phantaſtick Gentlemen and proud Ladies; for even <hi>Solomon</hi> had his Apes and Peacocks; but take no<g ref="char:EOLhyphen"/>tice that he hath beſides theſe a more Heavenly retinue, which obtain, not their places by bribes or intereſts. The Cardinal Vertues are his Dome<g ref="char:EOLhyphen"/>ſtick Servants, and the Graces are his Maids of Honour: His beſt Har<g ref="char:EOLhyphen"/>bingers are fervent Prayers, His Cup-bearer is Temperance, and Di<g ref="char:EOLhyphen"/>vine thoughts attend him in his Bed<g ref="char:EOLhyphen"/>chamber; when he would be inſtructed, the Holy ſpirit is of his privie
+<pb n="11" facs="tcp:108748:13"/>
+Counſel; and when he is in dan<g ref="char:EOLhyphen"/>ger, the Angels are his Life-Guard.</p>
+               <p>He is byas'd in his actions and Bal<g ref="char:EOLhyphen"/>laſted in his paſſions by the fear of God; <hi>Auguſtus Caeſar</hi> could not ſo eaſily allay his anger by repeating the letters of the <hi>Greek</hi> Alphabet, as he by thinking of him who is Α and Ω. In a word, we may obſerve that <hi>England</hi> in thoſe late bloody times was like the Sonne of <hi>Cis</hi> Tor<g ref="char:EOLhyphen"/>mented with an evil ſpirit, which could not be driven away, till we had ſent for <hi>David</hi> the anointed of the Lord, our lawful King; How ex<g ref="char:EOLhyphen"/>cellently he hath turned his inſtru<g ref="char:EOLhyphen"/>ment, let all the world (that ſees our Reformation) Judge; For he hath made <hi>Prudence</hi> his Tenour, <hi>Ju<g ref="char:EOLhyphen"/>ſtice</hi> his Baſe, and <hi>Mercy</hi> his Trebble, ſtrining which he hath skrewed up higher then the reſt (as Gods mercy is above all his works:) And there<g ref="char:EOLhyphen"/>fore, thoſe turbulent Spirits which
+<pb n="12" facs="tcp:108748:14"/>
+are not pacified with the Muſick of his Government, but are ſtill readie to caſt their Javelins even at Majeſtie it ſelf, are ſurely poſſeſſed with a worſe Devil then that of <hi>Saul.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>A reverend Divine.</head>
+               <p>WE read of Venerable <hi>Bede,</hi> that being blinde he was led by an unhappie boy to preach to a heap of ſtones. It is the complaint of many people that their preachers are like <hi>Bede,</hi> blind Guides; It is the grief of more Miniſters, that their hearers are like that ſenſleſs Congre<g ref="char:EOLhyphen"/>gation, Men of ſtonie hearts; It ſhall be my prayer, that he who is the Sun of Righteouſneſs, would enlighten the eyes of the one, and mollifie the hearts of the other.</p>
+               <p>The Prophets in ancient times were called <hi>Seers</hi>; a name very in<g ref="char:EOLhyphen"/>congruous for thoſe of our age; Few
+<pb n="13" facs="tcp:108748:14"/>
+of them can ſee any thing, unleſs it be moats in the eyes of others, when there are beams in their own.</p>
+               <p>Where then ſhall we find a true Divine? <hi>Diogenes</hi> (they ſay) ſought an honeſt man, and the Place where he ſought was <hi>Athens</hi> the moſt Fa<g ref="char:EOLhyphen"/>mous Univerſitie of <hi>Greece</hi>: It often times falls out, that where there is the moſt Learning, there is the leaſt honeſtie.</p>
+               <p>But that muſt not be our Rule; Humane Learning is neceſſarie for a Miniſter; for without that he may interpret the Goſpel, as thoſe Infi<g ref="char:EOLhyphen"/>dels did the words of our dying Lord, when they ſaid, He calls upon <hi>Elias</hi> to come and ſave him; or like that bundle of Nonſenſe tied up in a Caſſock that would blot out <hi>Eli,</hi> and write <hi>Trumpington</hi>; or like the Biſhop of <hi>Dunkelden,</hi> who knew nei<g ref="char:EOLhyphen"/>ther the Old Teſtament nor the New.</p>
+               <p>Yet this Knowledge muſt be ſan<g ref="char:EOLhyphen"/>ctified;
+<pb n="14" facs="tcp:108748:15"/>
+He that is <hi>Mediocriter Do<g ref="char:EOLhyphen"/>ctous,</hi> let him be <hi>Egregie pius</hi>: Pro<g ref="char:EOLhyphen"/>phane Gown-men are like <hi>Pſapho's</hi> Birds; that being let out of their Cage, the Achademy, Flie into the Countrie Villages, and chirp in the Pulpits their half conn'd <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſaluting their Creator as the Crows did <hi>Caeſar</hi> with a Complemental <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>: But Latine and Greek Phraſes (e<g ref="char:EOLhyphen"/>ſpecially if they flow from unhallow<g ref="char:EOLhyphen"/>ed lips) are but a ſtronger charm to ſleepie Conſciences, and dawb an Il<g ref="char:EOLhyphen"/>literate Auditorie with the untem<g ref="char:EOLhyphen"/>perate Morter of the old <hi>Babel.</hi>
+               </p>
+               <p>Two things therefore qualifie a Divine for his Function <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> &amp; <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Grace and Eloquence; He is in one ſenſe lawfully the Husband of two Wives: Philoſophie and Divinitie; for the one he did with <hi>Jacob,</hi> ſerve ſeven years at <hi>Oxford</hi> or <hi>Cambride,</hi> but alas, ſhe proved a blear eyed <hi>Leah,</hi> and not ſo amiable as he expected: But he hath at length gained <hi>Rashel,</hi>
+                  <pb n="15" facs="tcp:108748:15"/>
+that is, Divinity which is more beau<g ref="char:EOLhyphen"/>tiful and quiker-ſighted.</p>
+               <p>He looks upon the ſacred ſcriptures as a dial &amp; the Holy Ghoſt as the Sun, whoſe aſſiſtance muſt needs be neceſſa<g ref="char:EOLhyphen"/>ry for them that read for a dial with<g ref="char:EOLhyphen"/>out the ſun is uſeleſs; yet haying this help we know the truth by the one as well as the time of the day by the other; and therefore he ſets the watch of his judgement by this dial; not like the fooliſh Sectaries whoſe erroneous opinions are like lying clocks; their braines are full of wheeles, which the luſts and paſſions of their hearts hurry about too faſt, and make the hammers of their tongues give many falſe allarum's; For that bold phanatick that layes aſide the holy writ, and walkes by a pretended light within, is like the Sextons wife who ſcorned the advice of the dial and beleived that her hus<g ref="char:EOLhyphen"/>bands clock went truer then the Sun. His doctrin is plain and powerful,
+<pb n="16" facs="tcp:108748:16"/>
+and if he uſe notes, it is onely for method and memory; for he delivers nothing but the fruits of his own labour and ſtudy.</p>
+               <p>As for his prayers, they are more mental then oral; his words and his meditations haſten towards God as <hi>Peter</hi> and <hi>John</hi> towards the ſepul<g ref="char:EOLhyphen"/>cher; but his heart like the beloved diſciple out runs his tongue, and his devotion like a bullet peirces the gates of heaven before you can heare the report of the Gun.</p>
+               <p>His preaching may well be called lightening, for it hath the ſame won<g ref="char:EOLhyphen"/>derful operation, it effects broken hearts in ſound breaſts and melts the ſoul in the Scabberd of the body.</p>
+               <p>And as he is in regard of doctrine a light of the world ſo in regard of his Converſation he is the ſalt of the earth; indeed all good men are ſalt, for they ſeaſon others and keep the body politick from ſtinking. Salt, Sulphur and Mercury, are the three
+<pb n="17" facs="tcp:108748:16"/>
+principles of the Chymiſts. It was the ſin and miſery of <hi>Sodom</hi> and <hi>Gomorah</hi> that they had too little ſalt, and too much ſulphur. Thus all his actions are ſavory and well relliſhed without groſs ſcandal that might be nauſeous and offenſive to the ſquea<g ref="char:EOLhyphen"/>miſh ſtomack of a weak brother; for his words and workes are the ſame thing, and his life is a true repe<g ref="char:EOLhyphen"/>tition of his ſermon.</p>
+               <p>He well underſtands what our Sa<g ref="char:EOLhyphen"/>vour means by a Prophets reward, and therefore he hates covetouſneſs, and ſcornes to liſten to a <hi>Presbyterian</hi> Call; He is well contented with a competent allowance, and accounts the love of his neighbours and the ſucceſsful fruits of his miniſtry his beſt preferment.</p>
+               <p>Neither is he only actively but alſo paſſively Good; and as his innocence ſhews that he is a ſheep, ſo his ſuffer<g ref="char:EOLhyphen"/>ings argue that he hath been amongſt wolves. He hath alwayes honoured
+<pb n="18" facs="tcp:108748:17"/>
+the King as his maſter, and owned the Biſhops as his fathers, and for their ſake hath been ſilenced, not impriſo<g ref="char:EOLhyphen"/>ned; Yet he hath choſen to be eject<g ref="char:EOLhyphen"/>ed rather then to take an Oath a<g ref="char:EOLhyphen"/>gainſt his Prince, when he was brought to that hard <hi>Dilemma</hi> that he could not keep his <hi>Benefice</hi> and the <hi>fifth Commandement.</hi>
+               </p>
+               <p>But now this harmleſs dove that was by the Hand of Providence put out of the Ark of his Parſonage, is return<g ref="char:EOLhyphen"/>ed again with the olive branch of peace in his mouth, to ſignifie that our deluge of blood is well abated; whereſoever therefore he is ſent, let him be joyfully received; for (as <hi>David</hi> ſaid of the Son of <hi>Zadock) he is a good man, and he brings good ti<g ref="char:EOLhyphen"/>dings.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="19" facs="tcp:108748:17"/>
+               <head>A Vertuous Woman.</head>
+               <p>IS a true coppy of our mother <hi>Eve,</hi> with a perfect correction of all her <hi>Errata's</hi>; The ſecond Edition of a piece of Female divinity poliſhed with beauty, and bound up in Cha<g ref="char:EOLhyphen"/>ſtity, to convince the world that piety and goodneſs are of the femi<g ref="char:EOLhyphen"/>nine Gender.</p>
+               <p>He that beholds her thinks he ſees the propheſy of a new heaven, and a new earth, fullfilled; for her very countenance looks like the ſhame fac't bluſhes of the firſt light that peep'd out of the ill-ſhapen <hi>Chaos,</hi> and all her actions are Symptomes of a new Creature.</p>
+               <p>Her face is like the face of a Cheru<g ref="char:EOLhyphen"/>bin, which ſhe vailes in the preſence of God, becauſe it is impoſſible for her to behold his majeſty, and covers in the preſence of men becauſe it is
+<pb n="20" facs="tcp:108748:18"/>
+dangerous for them to look upon her beauty.</p>
+               <p>Yet ſhe hath an eye, not like an <hi>ignis fatuus,</hi> or falſe light which leads poore wandering men aſtray, but like that Star which appeared in the Eaſt, brings you to the knowledg of God; for in her looks you may read lectures of modeſty which invite not, but check laſcivious attempts; and (as the beams of the Sun put out leſ<g ref="char:EOLhyphen"/>ſer fires) extinguiſhes the flames of luſt in the hearts of incontinent per<g ref="char:EOLhyphen"/>ſons.</p>
+               <p>As for her cheeks they are the hiſ<g ref="char:EOLhyphen"/>tory of nature, wherein ſhe hath elegantly recorded the wars of <hi>York</hi> and <hi>Lancaſter</hi> in a faire diſcription of the combate between the white roſe and the red. Her body is like a goodly <hi>Cedar</hi> of <hi>Lebanon</hi> tall and ſtrait, or rather like the <hi>Royall Oake</hi> of Eng<g ref="char:EOLhyphen"/>land, the happy manſion of a moſt princely Tenant.</p>
+               <p>She is like <hi>Apelles</hi> his picture, <hi>Venus
+<pb n="21" facs="tcp:108748:18"/>
+to the Waſte</hi>; but as for her other parts they are <hi>Terra incognita,</hi> for in her chamber<g ref="char:punc">▪</g> is the ſhrine of chaſtity, and her bed is like the Sepul<g ref="char:EOLhyphen"/>cher of our Saviour, a place where never man lay.</p>
+               <p>I brief, ſhe is the moſt admired and the moſt deſired thing here be<g ref="char:EOLhyphen"/>low; as great and ſtrange a wonder upon earth, as ſhe that was cloathed with the ſun was in heaven; and next to <hi>Abrahams</hi> Boſome you would chuſe to lye in hers.</p>
+               <p>To conclude, he that would have ſuch a wife, muſt reſolve to live al<g ref="char:EOLhyphen"/>wayes unmarried; for ſhe is an ima<g ref="char:EOLhyphen"/>ginarie and not a real being, rare as a <hi>Phenix</hi> or a <hi>Philoſophers ſtone</hi>; and he that would woe her, muſt tra<g ref="char:EOLhyphen"/>vel to <hi>
+                     <g ref="char:V">Ʋ</g>topia.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="22" facs="tcp:108748:19"/>
+               <head>A Rigid Presbyterian.</head>
+               <p>TO deſcribe him right, is a task like that of the Tailor who took meaſure of the Devil; for there is nothing more like him upon earth then he; He is lined with Covetouſ<g ref="char:EOLhyphen"/>neſs, and covered with Hypocriſie the root and the cloak of all evil. Al<g ref="char:EOLhyphen"/>though at this time he carries a Bi<g ref="char:EOLhyphen"/>ble, at <hi>Worceſter</hi> fight he wore a ſword, ſo that it is hard to ſay whe<g ref="char:EOLhyphen"/>ther he be of the Tribe of <hi>Simeon</hi> or <hi>Levi.</hi> He ſwallows contrarie Oaths faſter then the <hi>Eagles</hi> in the <hi>Tower</hi> do gobbets of fleſh; <hi>For The way to Hell, and then Conſciene of a Presbyte<g ref="char:EOLhyphen"/>rian, are two broad things.</hi> He con<g ref="char:EOLhyphen"/>demns the lawfull Rites and Cere<g ref="char:EOLhyphen"/>monies of the Church; and is more raviſhed with the ſqueaking of a Tythe Pig, then with the Muſick of Organs.</p>
+               <p>
+                  <pb n="23" facs="tcp:108748:19"/>He appears in the Pulpit (like <hi>Aeſops</hi> Crow) in a dreſs of bor<g ref="char:EOLhyphen"/>rowed Feathers; for he preaches the workes of other men, which are ſo much the worſe for coming out of his mouth, as wares for being of the ſecond hand.</p>
+               <p>But it would grieve your heart to ſee how he racks the Ancient Fa<g ref="char:EOLhyphen"/>thers, when he makes his own Con<g ref="char:EOLhyphen"/>feſſion; and mangles the Modern Divines more barbarouſly then the Hang-man did the body of <hi>Hugh Peters</hi>; I am ſure poore <hi>Priſcian,</hi> gets many a broken head.</p>
+               <p>His Eloquence conſiſts altogether in railing, as though he had got his Education at <hi>Billinſgate</hi>; In his Diſcourſe he runs on like a mad Dog foaming and open-mouthed, yelping at the Reverend Biſhops, and biting his brethren the Sectaries, whom he makes as mad as him<g ref="char:EOLhyphen"/>ſelf.</p>
+               <p>
+                  <pb facs="tcp:108748:20"/>Yet ſometimes he perceives that his ſtuff is too ſhort for the hower-Glaſs, and then the wheeles of his Rheto<g ref="char:EOLhyphen"/>rick move very heavily; he then ſpends much time in humming and ſpetting, and with the wiping of his noſe makes many a filthy Parentheſis.</p>
+               <p>As for his Text, he handles that as <hi>Moſes</hi> did his rod when it was turned into a Serpent, <hi>he layes it down and runs away from it.</hi> Yet his Sermon lies all written before him; for the poore Coppy holder in divinity can doe nothing without his notes; This his weakneſs he would have you thinke is his worth, for he charges men of able parts with preſumtion; Yet when he prayes, he ſhuts his eyes preferring nonſenſe and Tautolo<g ref="char:EOLhyphen"/>gies before the divine Liturgie. <hi>Vain Wretch! that dares not ſpeak to men without papers, and yet preſumes to talke to God extempore.</hi> As for his pariſhioners, he ſaints or reprobates them according as they pay their
+<pb facs="tcp:108748:20"/>
+Tithes, and like a <hi>Gypſie,</hi> tells good Fortune to none but thoſe that Croſs his hand with a piece of Sil<g ref="char:EOLhyphen"/>ver; and by him as well as by the <hi>Pope,</hi> you may be Canoniz'd for Money: Thus he is a meer <hi>Balaam</hi> that bleſſes and curſes for reward; He that oppoſes him acts the part of an Angel, but he that ſubmits to him is worſe then an Aſs.</p>
+               <p>If you conſider his Conſtancie, he is a kind of religious <hi>Proteus,</hi> that is now ready to fawn upon that power againſt which he hath ſo long bark'd; If therefore there be a Church in <hi>England</hi> which conſiſts of men, Sure<g ref="char:EOLhyphen"/>ly, <hi>The Orthodox Faithful Conſtant Miniſters, are the Doors, Windowes, Pillars, Bells and Candleſticks,</hi> and Sir <hi>John</hi> ſerves onely for a Weather-Cock.</p>
+               <p>It is confeſſed, that at the begin<g ref="char:EOLhyphen"/>ing of this Happy Reformation he was a little ſtubborn, perhaps ex<g ref="char:EOLhyphen"/>pecting a ſecond war; but now
+<pb n="26" facs="tcp:108748:21"/>
+poor Heart!) He hath learned to pray for his Majeſty, but (if you could hear the Language of his ſoul) it is ſo as impatient Heirs pray for their rich Fathers. There are two ſorts of men, who having eſcaped a deſerved pair of Gallowes, pray for the King very ſtrangely, that is a Felon, whileſt the Executioner burns his hand, and a Traytor, whileſt the Devil ſears his Conſcience.</p>
+               <p>If you would know his name, you way find it ſubſcribed to an ugly Petition, for where <hi>Bradſhaw</hi> was the <hi>Pilate</hi> that condemned; he was one of thoſe <hi>Jews</hi> that cried <hi>Crucifie</hi>; He profeſſes ſorrow for the Martyrdom of our late Soveraign Lord: But be<g ref="char:EOLhyphen"/>lieve him not, for his hand helpt to hale him to the block: In a word, he is (at beſt) but a State-Crocodile, and one that is Maudlin drunk with the Kings blood.</p>
+               <p>No more, but if you chance to meet with <hi>Cleveland's Hue and Crie,</hi>
+                  <pb n="27" facs="tcp:108748:21"/>
+you may tell them he was lately in a ſequeſtred Parſonage.</p>
+            </div>
+            <div type="part">
+               <head>A debaucht Courtier.</head>
+               <p>IS an unworthy fellow that obtain<g ref="char:EOLhyphen"/>ed his office, not for formal Loyal<g ref="char:EOLhyphen"/>ty, but preſent money; He paid dear for his place; and he that preferred him is like to pay dearer for his cor<g ref="char:EOLhyphen"/>ruption. He is a Traitor to God; and therefore can be no good Sub<g ref="char:EOLhyphen"/>ject to the King; He acts a double part upon the Theater of the world, <hi>Peter</hi> and <hi>Judas; Peter</hi> to his Maker, and <hi>Judas</hi> to his Maſter: for by his drunkenneſs, ſwearing and debau<g ref="char:EOLhyphen"/>chery, he both denies his Redeemer, and betrayes his Soveraign.</p>
+               <p>Nor is it ſtrange; for oftentimes the tranſgreſſions of ſervants bring Judgements upon their Lords; A holy Prince confeſſes and complains of the ſins of his heels, that is, of his
+<pb n="28" facs="tcp:108748:22"/>
+wicked followers. King <hi>Charles</hi> the Firſt, who was as little ſubject to vice, as <hi>Achilles</hi> to wounds, ſuffered through the iniquity of his peo<g ref="char:EOLhyphen"/>ple: Thus it pleaſed God to ſmite the Head, for the ſinnes of the Heels.</p>
+               <p>If you caſt your eies upon his outſide he ſeems <hi>a kinſman to the man in the Moon,</hi> for every month he is in a new faſhion; and (inſtead of true gallantry which once dwelt in the breaſts of <hi>Engliſhmen</hi>) he is made up of com<g ref="char:EOLhyphen"/>plements, Cringes, and <hi>French</hi> Apiſh trickes, Perfumes, Perriwig, Fancies, Knots, Muffe and Feather, which make him more fit to be ſet upon a Farmers Hovel to ſcare Crows, then to ſerve the King in his Royal pal<g ref="char:EOLhyphen"/>lace, they are blots in a Princes Train who have nothing to ſet them forth but gay cloaths and impudent beha<g ref="char:EOLhyphen"/>viour; For they carrie the ſtalls of pedlers about their knees, and of Tinkers in their foreheads. Indeed
+<pb n="29" facs="tcp:108748:22"/>
+rich Garments are fit for honoura<g ref="char:EOLhyphen"/>ble perſons; but ſervants ought to imitate the vertues of their Maſters and not the faſhion of their cloaths; That which becomes a King or Noble Man, is not decent for a Peaſant or baſe fellow; the Lyons skin would not fit the Aſſe.</p>
+               <p>In wearing Apparel we muſt ob<g ref="char:EOLhyphen"/>ſerve three Concords; the firſt is when a mans apparel agrees with his birth; the ſecond when it agrees with his purſe; the third when it a<g ref="char:EOLhyphen"/>grees with his parts or breeding: He that wears apparel above his birth forgets his parents, he that wears apparel above his purſe un<g ref="char:EOLhyphen"/>does his children, he that weares ap<g ref="char:EOLhyphen"/>parel above his breeding, is guilty of a falſe concordance in the rules of morality, and is a very incongruous gentleman. It is a vulgar report, (per<g ref="char:EOLhyphen"/>haps a vulgar error) concerning his excellency the Duk of <hi>Albermarle,</hi> that he once wore a wooden ſword in a
+<pb n="30" facs="tcp:108748:23"/>
+velvet ſcabbard; It would be a ſafer point of faith for the Country-men to believe that in—there are wood<g ref="char:EOLhyphen"/>en Courtiers in velvet Coats.</p>
+               <p>It was ingeniouſly obſerved by the Fabuliſt of the flye, that though ſhe boaſteth of her nobility, yet ſhe lives only in ſummer, a true <hi>Hieroglyphick</hi> of a Courtier that flouriſhes only in the ſummer of proſperity and in the Sun-ſhine of his Princes favour.</p>
+               <p>We read that flies were a plague to King <hi>Pharaoh</hi>; and ſo have Paraſitical Courtiers been to other Princes; If <hi>Domitian</hi> had rightly underſtood this, he would have purged his Court from the one as well as his chamber from the other.</p>
+               <p>In briefe, a prophane <hi>Sycophant</hi> in a royal Court is a flie; He was at firſt but a maggot generated in the Carcaſe of ſome decayd family; But now friends &amp; intreſt have given him wings; that which he moſt deſires is a ſilver hook, and that which he beſt
+<pb n="31" facs="tcp:108748:23"/>
+deſerves is a hempen line; and ha<g ref="char:EOLhyphen"/>ving theſe two he is a fit bait to fiſh for the Devill.</p>
+            </div>
+            <div type="part">
+               <head>An <g ref="char:V">Ʋ</g>niverſity Bedle.</head>
+               <p>CAnnot be defin'd like <hi>Qui</hi> Church for the word <hi>Eſt,</hi> comprehends both his genus and difference. He hath got juſt ſo much Latine as to call a congregation; in which worke his mouth is often opened to very little purpoſe, and never ſtopt without great coſt. There is nothing ſo much ſtaggers his faith as our Saviours miracle of feeding the multitude with five loaves and two fiſhes, and nothing ſo much ſtumbles his obedi<g ref="char:EOLhyphen"/>ence as a day of publick faſting and humiliation (had he been of the Kings counſel, we ſhould not have obſerved Lent.) He accounts no plague ſo terrible as famine, no ver<g ref="char:EOLhyphen"/>tue ſo difficult as temperance, and no
+<pb n="32" facs="tcp:108748:24"/>
+Treaſon comparable to the con<g ref="char:EOLhyphen"/>ſpiracie of the members againſt the belly.</p>
+               <p>He ſits down at a feaſt as a modera<g ref="char:EOLhyphen"/>tor in that great diſpute betwixt <hi>Os Oſſis,</hi> and <hi>Os Oris,</hi> but he never ſayes to the Reſpondent <hi>Abunde ſatisfeciſti:</hi> The hungry Sizers wiſh their knives as deep in his panch as his in the beef; for he is like to leave them poore re<g ref="char:EOLhyphen"/>verſions; his guts and Gown ſleeves, are like <hi>Scylla</hi> and <hi>Charybdis,</hi> for that which miſſes the one, falls into the other.</p>
+               <p>In the temples of the Heathens, there were two Idols; Bell, and the Dragon; In the Churches of the Chriſtians there are two Hierogly<g ref="char:EOLhyphen"/>phicks, Time and Death; Amongſt the Heathens the <hi>Bedle</hi> might have ſerved for <hi>Bell,</hi> becauſe he is a great devourer; and amongſt the Chriſti<g ref="char:EOLhyphen"/>ans he may be an emblem of time, for he is <hi>Edax Rerum.</hi>
+               </p>
+               <p>Yet in the <hi>
+                     <g ref="char:V">Ʋ</g>niverſity</hi> he is not Idoli<g ref="char:EOLhyphen"/>zed
+<pb n="33" facs="tcp:108748:24"/>
+but made a laughing-ſtocke; He is a <hi>Jack a Lent</hi> to the merry Sophiſters; and a mark at which the <hi>Tripos</hi> and his bretheren ſhoot their <hi>fooles bolts</hi>; The cock is not ſo much throwen at on <hi>Shrove-Tueſday,</hi> as he on <hi>Aſh-wedneſday.</hi>
+               </p>
+               <p>Yet he is a man whoſe converſati<g ref="char:EOLhyphen"/>on is void of offence; for he never does wrong to any but his Breeches. His practice is contrary to that of the <hi>Phariſes</hi> for he makes clean the inſide of cups and platters. He is a great example of patience in ſuffer<g ref="char:EOLhyphen"/>ing all thoſe Iokes, Ieeres, Quirks, tricks, and abuſes, that are put up<g ref="char:EOLhyphen"/>on him; He makes uſe of them as ſower ſauce to make his ſweet gains have the better reliſh.</p>
+               <p>In a word, though he bear the out<g ref="char:EOLhyphen"/>ſide of an <hi>Achademian</hi> he is a man better fed then taught, having a fat paunch and a lean pate, a full purſe and an empty brain; he employes his tongue to find his teeth work, and
+<pb n="34" facs="tcp:108748:25"/>
+his life is like that of a Swine, he is alwaies either crying or eating.</p>
+            </div>
+            <div type="part">
+               <head>A Phanatick.</head>
+               <p>IS a new name for an old Hereſie; one of the Dragons Angels, who being caſt out of Heaven, is now come to make war upon earth; He would have you believe, that he fights for the Goſpel, although the Goſpel for<g ref="char:EOLhyphen"/>bids fighting; he calls his Captain <hi>Jeſus</hi> a Saviour, when in truth he is <hi>Apollyon</hi> a Deſtroyer: When he pre<g ref="char:EOLhyphen"/>tends to worſhip God, he intends to Maſſacre his neighbours, and like <hi>Pilate</hi> mingles blood with his ſacri<g ref="char:EOLhyphen"/>fices: Thus he abuſes our Gracious Kings Mercy, by committing mur<g ref="char:EOLhyphen"/>der in the Streets; for when Juſtice is dormant in the Court, cruelty is rampant in the Citie.</p>
+               <p>Peace and Truth are the <hi>Jachim</hi> and <hi>Boaz,</hi> both of Church and State;
+<pb n="35" facs="tcp:108748:25"/>
+The Phanaticke doth really pull down the one, whileſt he profeſſes to build up the other.</p>
+               <p>He ſcatters his blaſphemous Li<g ref="char:EOLhyphen"/>bels in the Streets, and high wayes, as they that are infected with the Peſtilence doe their Caps, Gloves and Hand-kerchiefs; but amongſt all the plagues of <hi>Aegypt,</hi> there is none like his.</p>
+               <p>When <hi>Oliver Cromwell</hi> tolerated liberty of erroneous Opinions, it was as when <hi>Epimetheus</hi> opened <hi>Pan<g ref="char:EOLhyphen"/>doras</hi> box; for the one let out as many Diſeaſes upon the ſoul, as the other upon the body.</p>
+               <p>The Opinions and judgements of men, are like their faces; Amongſt all thoſe Millions and multitudes in the world, there is not any two ſo like, but they may be known one from the other. Yet a thouſand ſe<g ref="char:EOLhyphen"/>veral faces, though by ſome ſmall token they may be known aſunder, may every one of them have the
+<pb n="36" facs="tcp:108748:26"/>
+Image of man; and a thouſand ſeveral ſouls, though they differ in ſome ſlight notions and circumſtantial points of judgement, may all of them have the Image of God.</p>
+               <p>But the Phanaticks, and all that prodigious off-ſpring of the <hi>Rumps</hi> Reformation, are Monſters in Reli<g ref="char:EOLhyphen"/>gion, having not the right make and ſhape of Chriſtians, but either ad<g ref="char:EOLhyphen"/>ding to or diminiſhing from the holy Scriptures; Though they are Giants in Rebellion, yet they are but Pig<g ref="char:EOLhyphen"/>mies in Pietie, Antipodes in Faith, Deficients in what they ought to doe and believe, and Redundants in what they ought not, and mere <hi>Hetero<g ref="char:EOLhyphen"/>clites</hi> in Divinity.</p>
+               <p>Religion, that ſhould be a matter of practice, they have made a buſi<g ref="char:EOLhyphen"/>neſs of Controverſie; the Itch of diſ<g ref="char:EOLhyphen"/>puting is grown to ſuch a ſcab in the Church, that it will hardly be cured without ſome ſuch Brimſtone as fell upon <hi>Sodom</hi> and <hi>Gomarrah.</hi>
+                  <pb n="37" facs="tcp:108748:26"/>
+Thus the childeren if this Genera<g ref="char:EOLhyphen"/>tion are like preſumptuous ſervants, that ſeek rather to know their Ma<g ref="char:EOLhyphen"/>ſters ſecret Counſels, then to obey their known Wills; ſtudying ſtrange Arguments to defend their <hi>Hete<g ref="char:EOLhyphen"/>rodox</hi> tenents, as though the ſpring of Living Water were <hi>Ezek,</hi> a Foun<g ref="char:EOLhyphen"/>tain of Contention, or <hi>Sitnah,</hi> a Well of Hatred.</p>
+               <p>Neither do they onely inveigh a<g ref="char:EOLhyphen"/>gainſt the <hi>Orthodox Clergie,</hi> but (as though the kingdom of <hi>Beelzebub</hi> were divided againſt it ſelf) fall out one with another; when inſtead of the ſtill voice of the Spirit, and the Language of <hi>Canaan,</hi> you may hear Deceiver, Antichriſt, Lier, Dog, Devil, and ſuch like Rhetorical ex<g ref="char:EOLhyphen"/>preſſions fall from their mouths, filling the place of their Conventi<g ref="char:EOLhyphen"/>cle with ſuch a noiſe as was in the Streets of <hi>Sodom,</hi> when the rude Infidels beſet <hi>Lots</hi> houſe; Surely the Sabboth of the Lord hath been much
+<pb n="38" facs="tcp:108748:27"/>
+prophaned both by us, and our Fa<g ref="char:EOLhyphen"/>thers; for they maintained the bait<g ref="char:EOLhyphen"/>ings of Bears and Bulls; and we the fighting of theſe beaſts of <hi>Epheſus.</hi>
+               </p>
+               <p>It is reported of <hi>Gregory</hi> the great Biſhop of <hi>Rome,</hi> that ſeeing ſome <hi>Engliſh</hi> Children in the Market to be ſold, he ſaid, they might well be cal<g ref="char:EOLhyphen"/>led <hi>Angli,</hi> for they ſeemed unto him Angels; but had hee ſeen the Men of this Age, he would rather have named them <hi>Diaboli,</hi> Devils; He did not then ſee ſo much of the beauty of <hi>England</hi> in <hi>Rome,</hi> as he might now ſee of the abominations of <hi>Rome</hi> in <hi>England.</hi> For there is a great myſtery of Iniquity, the grief of Wiſe men, and the wonder of ignorant, that ſome rebellious Ze<g ref="char:EOLhyphen"/>lots under a pretence of keeping out Popery ſhould indeavour to bring it in for to riſe up in armes againſt our lawful King, is a thing which Jeſus never taught, and none but the Pope ever tolerated. It is
+<pb n="39" facs="tcp:108748:27"/>
+not the harmleſs and decent cere<g ref="char:EOLhyphen"/>mony of Organs that can be lookt upon as a ſign of Popery, but thoſe ſeditious Prieſts, that cry againſt them are themſelves the Popes organs and the Devils inſtruments; the one blows the bellows of their diſcontented ſpirits, and the other playes upon the keys of their railing tongues, and thus they make an un<g ref="char:EOLhyphen"/>pleaſant muſick, which conſiſts alto<g ref="char:EOLhyphen"/>gether of diſcords.</p>
+               <p>But as when God firſt brought man into the world, he was naked, to ſignifie that his Creator was not aſhamed of his worke, ſo when the Devil firſt brought ſin into the world it was cloathed with an excuſe, leaſt its odious nature ſhould too ſoon be ſeen; and amongſt the reſt theſe of theft, murder, treaſon and ſacriledge, have been covered with a mantle of tenderneſs of conſcience; but (be<g ref="char:EOLhyphen"/>leive it Reader,) if the skins of theſe men were as tough as their conſcien<g ref="char:EOLhyphen"/>ces,
+<pb n="40" facs="tcp:108748:28"/>
+and their fleſh, as hard as their hearts, they would be both ax and Halter proofe; they might laugh at the block and defie the gallows.</p>
+               <p>Thus hath <hi>England</hi> for ſome years been <hi>Tomos</hi> an <hi>Iſland</hi> of Sects; Reli<g ref="char:EOLhyphen"/>gion (like <hi>Joſephs</hi> coat a thing of ma<g ref="char:EOLhyphen"/>ny colours dyed in difference, and dipt in bloud: Truth like <hi>Sybils</hi> leaves by ſtrange Windes of doctrine blown into confuſion; and Bold Pha<g ref="char:EOLhyphen"/>naticks running from the ſhop-board to the pulpit, and from the pulpit to the gibbet, where we leave them to take their ſwing; for he that will not have <hi>Charles</hi> to be his King, muſt accept of <hi>Dun</hi> to be his Prieſt.</p>
+            </div>
+            <div type="part">
+               <pb n="41" facs="tcp:108748:28"/>
+               <head>A VVhore.</head>
+               <p>THe young <hi>Perſian</hi> (who for his wiſedom was called <hi>Darius</hi> his Cozen) treated of 2 things, <hi>the pre<g ref="char:EOLhyphen"/>valency of Truths, and the ſtrength of wo<g ref="char:EOLhyphen"/>men</hi>; Indeed the ſtrength of women hath been ſufficiently manifeſted in the fall of the firſt man, the ruine of the ſtrongeſt man, and the backſliding of the wiſeſt man; yet <hi>Iob</hi> (through patience) was able to ſtand, maugre the Devil and his wife; ſo that it is neither age, ſtrength, nor wiſedome, but patience that can overcome a Woman; Patience muſt be a ſhield for him that is married, and conti<g ref="char:EOLhyphen"/>nence for him that is not: for luſt is the Devils bonefire wherein poore man is burned with his owne rib.</p>
+               <p>The royal preacher ſpeaking con<g ref="char:EOLhyphen"/>cerning a Harlot, calls her a ſtrange
+<pb n="42" facs="tcp:108748:29"/>
+Woman, but we uſually term her a common-woman; and no wonder, for thoſe ſins which were ſtrange in <hi>Solomons</hi> dayes, are common in ours.</p>
+               <p>Now this ſtrange common-woman is a kind of Land <hi>Syren,</hi> far more dan<g ref="char:EOLhyphen"/>gerous then they in the Sea; for he that falls into her hands, runs a three<g ref="char:EOLhyphen"/>fold hazzard, of deſtroying ſoul, bo<g ref="char:EOLhyphen"/>dy and eſtate.</p>
+               <p>In her face there hangs ſome rags of ore-worn beauty like old cloaths in a Broakers window to make you believe that there are better wares within; and the Language of her eyes is, What do you lack Sir? Yet he that trades with her, is like to have a ſad purchaſe, for ſhe can ſell him no<g ref="char:EOLhyphen"/>thing but repentance and a foul diſ<g ref="char:EOLhyphen"/>eaſe.</p>
+               <p>If ſhe be a great perſon, ſhe hath two neceſſary implements to help and to hide her infirmities, a Black-a-moore, and a little Dog; for with<g ref="char:EOLhyphen"/>out theſe, ſhe would be neither fair nor ſweet.</p>
+               <p>
+                  <pb n="43" facs="tcp:108748:29"/>For her cheeks, ſhe hath an artifi<g ref="char:EOLhyphen"/>cial dye, and (contrary to the rules of Heraldry,) ſhe layes mettle upon mettle, and colour upon colour. Argent upon Or, and Gules upon Sables.</p>
+               <p>It is reported of an ingenious Limner, that he pictured a Boy car<g ref="char:EOLhyphen"/>rying Grapes; The Grapes were ſo lively painted, that the Birds of the Aire catched at them, thinking they had been really what they ſeemed: whereupon the Painter did as much diſlike one part of his work, as he had reaſon to commend the other; ſaying, That had he painted the Boy as lively as the Grapes, the Birds would have been afraid to come ſo near: Even ſo a Female Paintreſſe excells in one part of her work, and fails in the other. Beauty which is half the outſide of a compleat Lady, ſhe can ſo handſomly pourtray, that wanton Youngſters like ſilly Birds, are ready to catch at the Grapes of
+<pb n="44" facs="tcp:108748:30"/>
+her Lips; but could ſhe paint Mode<g ref="char:EOLhyphen"/>ſty as well as Beauty, Laſcivious men would keep further off. But ſhe that proſtitutes her own fleſh, and lets out her Hackney body for hire, will make uſe of all advantages to draw in Cuſtome, and to advance Trading, as rude behaviour, unclean talk; and if ſhe have a skin clearer then her Conſcience, bare breſt and ſhoulders like the nakedneſs of <hi>Bathſheba,</hi> who did at the ſame inſtant pollute <hi>Da<g ref="char:EOLhyphen"/>vids</hi> ſoul, whileſt ſhe waſht her own body.</p>
+               <p>Thus ſhe makes ſinfull Merch<g ref="char:EOLhyphen"/>andize of her ſelfe, and converts that which ſhould be a Temple of the Holy Ghoſt, into a ſtall of beaſt<g ref="char:EOLhyphen"/>ly luſts, much like the zeal of our late times, who made a ſtable of <hi>Pauls</hi> Church. As for her upper parts, they are the ſhop of <hi>Cupid,</hi> and her lower parts are his Ware-houſe; at length old age makes her turn Bank<g ref="char:EOLhyphen"/>rupt, ſpoils her game, and in graves
+<pb n="45" facs="tcp:108748:30"/>
+wrinckles, where ſhe once painted Roſes, and then with all her black ſpots and patches, ſhe looks but like an old reſty Gammon of Bacon ſtuck with Cloves, ſcarce ſo beautiful, but I am ſure not half ſo ſavoury; and then ſhe is like a rotten ſtick, which ſerves onely to kindle green ones: The place where ſhe is moſt a ſtran<g ref="char:EOLhyphen"/>ger, is the Church, and the place which ſhe beſt deſerves is a pair of ſtocks; but where ſhe moſt deſires to be, is a Tavern or a Play-houſe; Sometimes like <hi>Dinah</hi> ſhe walks the ſtreets, ſometimes like <hi>Jael</hi> ſhe ſtands at the Door, and ſometimes like <hi>Jezabel</hi> ſhe looks out at the win<g ref="char:EOLhyphen"/>dow.</p>
+               <p>In brief, ſhe is a loathſome ſtinking Carrion, too unclean to enter into Heaven, too diſeaſed to continue long upon earth, the ſhame and ſtain of her Sex, the ſcorn of wiſe men, and the deſtruction of fools; too foul a ſubject to be touched with any thing
+<pb n="46" facs="tcp:108748:31"/>
+but a pen or a pair of Tongues, and therefore I have done with her. Foh how ſhe ſtinks.</p>
+            </div>
+            <div type="part">
+               <head>A happy Ruſtick.</head>
+               <p>IS one whoſe Converſation is in Heaven, and his Habitation in the Country; Where he injoyes two things (which are very rare in the Citie) a ſweet Aire, and a good Con<g ref="char:EOLhyphen"/>ſcience. He is ſuch to God, as he would have the Earth to be to him<g ref="char:EOLhyphen"/>ſelf fruitful, according to that talent which is lent him, and as in his labour he taſtes the fruit of his ſin, ſo in his enjoyments he eats the fruit of his labour. He is good out of a double principle, partly out of ignorance of the evil he knows not, but chiefly out of deteſtation of that he knows: He hath ſtudied Piety, more then Court-ſhip, and knows better how to pray then Complement.</p>
+               <p>
+                  <pb n="47" facs="tcp:108748:31"/>
+                  <hi>Emanuel Theſaurus</hi> makes a kinde of jeſt at our Father <hi>Adams</hi> fall, and ſays, <hi>quia Deum non coluit, Terram co<g ref="char:EOLhyphen"/>luit,</hi> but the honeſt Plowman doth both; for though his imployment be like the imployment of <hi>Cain,</hi> yet his ſacrifice is like the ſacrifice of <hi>A<g ref="char:EOLhyphen"/>bel</hi>; in this he differs from the ſilken Apes of <hi>London</hi>; he hath durty hands, and a clean heart.</p>
+               <p>He is early up both at his Devo<g ref="char:EOLhyphen"/>tion and Labour, the watchful Cock is his Chaplain, whoſe crowing puts him in mind not onely of his work, but of his ſins, as it once did <hi>Pe<g ref="char:EOLhyphen"/>ter</hi>: The greateſt part of the Day he ſpends in honeſt pains; and when he takes his recreation, it is harmleſs, wholſome and man<g ref="char:EOLhyphen"/>ful.</p>
+               <p>Although he abounds not in wealth, he is maſter of one precious Jewel, a contented mind, which (like the <hi>Philoſophers ſtone</hi>) turns all it toucheth into Gold, and makes
+<pb facs="tcp:108748:32"/>
+every condition pleaſant. In ſhort, he is one, at whoſe door the weary <hi>Cynick</hi> may ſet down his Lanthorn, and ſay, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</p>
+            </div>
+            <div type="part">
+               <head>A Beaſtly-Drunkard.</head>
+               <p>I, Who theſe 26. years have been a <hi>Pilgrim</hi> in the wilderneſſe of this world, have obſerved therein two ſorts of Beaſts; There are <hi>Qua<g ref="char:EOLhyphen"/>drupedes,</hi> or fourefooted Beaſts, and theſe did God make in the great world; and there are <hi>Bipedes,</hi> or two-footed Beaſts, and theſe did man make in the little world of himſelf: Unto the Beaſts which God made, did <hi>Adam</hi> give names; but unto the Beaſts which Man made, did the De<g ref="char:EOLhyphen"/>vil give names: Amongſt the reſt, a Drunkard, which is in truth no other then a Swine, doth our Grand Impo<g ref="char:EOLhyphen"/>ſtor call a good fellow.</p>
+               <p>But away with this vizzord, ſuch
+<pb n="49" facs="tcp:108748:32"/>
+good fellows are not fit to have fel<g ref="char:EOLhyphen"/>lowſhip with God, nor ſocietie with good men, but rather to go in the company of that briſtled Herd, which is turned out before the Swine-ard.</p>
+               <p>A Drunkard is inwardly (and ſome times outwardly) a beaſt; he was once a man, but his His Hoſteſſe <hi>Circe</hi> or <hi>Morphandra,</hi> with the powerful charm of her Pots and Flaggons, hath quite changed his ſhape: He was once a free man, but now he is a ſlave to his own luſt; For he that makes Indentures with his feet, doth bind himſelf Apprentice to Senſua<g ref="char:EOLhyphen"/>litie; he is condemned to the Prodi<g ref="char:EOLhyphen"/>gals drudgerie, that is, <hi>To feed ſwine,</hi> to foſter and foment an inſatiable brutiſh appetite which hath learned the Language of the Horſleaches daughter, Give, Give. Laſtly, he was once a living man; but now he is dead in ſin and (like the <hi>French</hi> Em<g ref="char:EOLhyphen"/>baſſadours child) hath his heart bu<g ref="char:EOLhyphen"/>ried in a cup.</p>
+               <p>
+                  <pb n="50" facs="tcp:108748:33"/>In the curſe of <hi>Jeroboam</hi> God threatens to cut off him that piſſeth againſt the wall; the Drunkards may well have a ſhare in this curſe; for they live onely to piſſe againſt the wall, even the laviſh expence of that which ſhould relieve and ſuccour their poor wives and children: But ſurely the ſtones of thoſe walls ſhall crie out againſt theſe men at the day of judgement.</p>
+               <p>But to conclude, let him that is an immoderate drinker, remember the Story of <hi>Dives</hi>; there is no tip<g ref="char:EOLhyphen"/>ling in Hell; Let him remember the Story of <hi>Judas,</hi> the ſop made way for the Devil; Let him conſider the words of the young Prophets to <hi>Eli<g ref="char:EOLhyphen"/>ſha,</hi> There is death in the Pot.</p>
+            </div>
+            <div type="part">
+               <pb n="51" facs="tcp:108748:33"/>
+               <head>An ignorant old man.</head>
+               <p>IS one who diſhonours his Age by his folly; a man in years, but a child in underſtanding; he hath lived ſo long, till the world and himſelf are mutually weary one of another. And he cares not how ſoon he leaves this, if he vvere but prepared for a better; he is grovvn very near his grave, but far enough from Hea<g ref="char:EOLhyphen"/>ven; in his crookedneſs his ſoul and body obſerve an equal proportion; for neither of them vvalk, uprightly: He vvill tell you many ſtories of things that vvere done in the dayes of Queen <hi>Elizabeth,</hi> and yet you may poſe him, if you ask him vvhat he remembers of the laſt Sermon he heard; Thus like a Crab-fiſh, he is cravvling tovvards his long home, and yet he looks backvvard at his former follies, not conſidering his lat<g ref="char:EOLhyphen"/>ter
+<pb n="52" facs="tcp:108748:34"/>
+end, ſpending moſt of his dayes in conning his Preterperfect tenſe, but not at all regarding the Future.</p>
+               <p>Old men when they are vexed and diſcontented, are very apt to invite death; but (in cold blood) won<g ref="char:EOLhyphen"/>derous unwilling to give him enter<g ref="char:EOLhyphen"/>tainment. <hi>Aeſop</hi> tells us of an aged Man, who being grievouſly laden with a bundle of ſticks, caſt them down; and as though his Life had been a burden unto him as well as his wood, he began very paſſionately to call for Death: Death, (who ſel<g ref="char:EOLunhyphen"/>dome ſtayes till he is called or ſent for) on the ſudden appears <hi>Vouz Avez,</hi> Maſter <hi>Mors,</hi> What would my Grandſire have? The old man that was willing to live another win<g ref="char:EOLhyphen"/>ter, and to warm his fingers with the Fewel which he had provided; intreated the grim <hi>Skelleton,</hi> that he would onely help him up with his load. Thus carnal ſpirits in ſome formal Confeſſion, may throw down
+<pb n="53" facs="tcp:108748:34"/>
+the burden of their ſins, and deſire to be diſſolved; but when the pale Meſſenger, who muſt work his Diſ<g ref="char:EOLhyphen"/>ſolution, once knocks at the doore and cries, <hi>Adſum,</hi> Oh how loth they are to die? they had rather ſtill live in their former ſlaverie, although it is to be porters to ſin, and pack<g ref="char:EOLhyphen"/>horſes to Satan.</p>
+               <p>Have you never been entertaind in a Noble Mans buttery, and ob<g ref="char:EOLhyphen"/>ſerved the policy of the ſervants how you muſt firſt drink with one, then with another, after him with ano<g ref="char:EOLhyphen"/>ther, until every one hath had a ſingle courſe at you, and at laſt run you quite off your legs; thus abu<g ref="char:EOLhyphen"/>ſing their Lords Hoſpitalitie, by making men drunk.</p>
+               <p>Juſt ſuch is the world, where ſe<g ref="char:EOLhyphen"/>veral temptations ſtrive to intoxi<g ref="char:EOLhyphen"/>cate the poore ſtranger, man; there is a thing called <hi>Cupid,</hi> which drinks the Sack of Eyes, and the Claret of Lips; There is a thing called <hi>Mam<g ref="char:EOLhyphen"/>mon,</hi>
+                  <pb n="54" facs="tcp:108748:35"/>
+who like <hi>Cleopatra,</hi> or Sir <hi>Thomas Greſham,</hi> doth ſwallow Pearles and Jewels: There is ano<g ref="char:EOLhyphen"/>ther called Revenge, which drinks nothing but blood.</p>
+               <p>In this Company, hath our old man tippled away the Morn of his Youth, the Noon of his Strength, and the Evening of his Age, and is now laid down to take a nap in the Grave, where we leave him till the Reſurrection.</p>
+            </div>
+            <div type="part">
+               <head>A Player.</head>
+               <p>IS an Artificial fool, that gets his li<g ref="char:EOLhyphen"/>ving by making himſelf ridicu<g ref="char:EOLhyphen"/>lous; he hath lickt up the Vomit of ſome drunken Poet &amp; (like a jugler) caſts it up again before a thouſand Spectators. He is the ignorant mans Wonder, the rich mans Jeſter, and the Devils Factor, that by a ſtrange deluſion ſends men laughing to hell.</p>
+               <p>Yet I confeſs that Comedies, (if
+<pb n="55" facs="tcp:108748:35"/>
+not prophane nor laſcivious) may be ſometimes lawful recreations for great Perſons, whoſe melancholly heads are daily troubled with weigh<g ref="char:EOLhyphen"/>tie Affaires: But unto inconti<g ref="char:EOLhyphen"/>nent Youth, (thoſe Martyrs of Luſt, and uncleanneſs) they are but as Oyle to their flames, and as bags of gun-powder tied under their Armes.</p>
+               <p>Hence it was that Heroick <hi>Sid<g ref="char:EOLhyphen"/>ney</hi> upon his Death-bed condemned that rare Monument of his match<g ref="char:EOLhyphen"/>leſs wit, his <hi>Arcadia</hi> to be burned, fearing perhaps leaſt it ſhould burn others; <hi>Romances</hi> and <hi>Playes,</hi> are dan<g ref="char:EOLhyphen"/>gerous Edge-Tooles, which unwa<g ref="char:EOLhyphen"/>rie Readers muſt not meddle with: They are hot burning Irons, which Chaſte Ladies like the Empreſſe <hi>Kun<g ref="char:EOLhyphen"/>nigund</hi> may ſafely handle without hurt, whileſt other goe away with burned — and ſeared Con<g ref="char:EOLhyphen"/>ſciences.</p>
+               <p>The effeminate Citizens of <hi>Sy<g ref="char:EOLhyphen"/>baris,</hi> were ſo much given to mirth
+<pb n="56" facs="tcp:108748:36"/>
+and jollitie, that they taught their very Horſes to dance, but when the Martial Trumpet called forth theſe <hi>Carpet Knights</hi> into the Field, the merry Palfreyes (according to their former Education) danced <hi>deaths dance</hi> before their Enemies. How many of the more effeminate <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> are trained up in wantonneſſe, dancing and playing? But I won<g ref="char:EOLhyphen"/>der how they will dance at the ſound of the laſt Trumpet, or what new Maske they will have at the day of Judgement.</p>
+               <p>But not to regard theſe Shad<g ref="char:EOLhyphen"/>dowes, let us looke a little at the Subſtan<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e; our Life is but an Inter<g ref="char:EOLhyphen"/>lude; Happie is he that acts his part well.</p>
+               <p>There are ſome who turn a <hi>Co<g ref="char:EOLhyphen"/>medie</hi> into a <hi>Tragedie,</hi> and as the firſt <hi>Pſalme,</hi> begin with Bleſſedneſſe, and end with periſhing; But he is the moſt excellent Actor, who imi<g ref="char:EOLhyphen"/>tates Chriſt, and the beſt <hi>Comoedie</hi> is a Holy Converſation.</p>
+            </div>
+            <div type="part">
+               <pb n="57" facs="tcp:108748:36"/>
+               <head>A Mechanick Magiſtrate.</head>
+               <p>WHen God firſt created Man, he did miraculouſly form him out of the Duſt of the Earth, without the <hi>Medium</hi> of Natural Ge<g ref="char:EOLhyphen"/>neration; and when Chriſt firſt Or<g ref="char:EOLhyphen"/>dained Miniſters, he did extraor<g ref="char:EOLhyphen"/>dinarily call poor Fiſhermen from their Nets, who had not the help of Humane Learning; So likewiſe, there was a time when God raiſed up Ma<g ref="char:EOLhyphen"/>giſtrates from mean employments, <hi>Saul</hi> from ſeeking Aſſes, <hi>David</hi> from keeping Sheep, <hi>Sanga<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> and <hi>Gideon</hi> from Husbandrie to be Kings and Judges over his people. But now miracles are ceaſed; and although all men are Created by God, yet they are begotten by men their Fa<g ref="char:EOLhyphen"/>thers. And though all lawful Mini<g ref="char:EOLhyphen"/>ſters are ſent by God, yet they are outwardly called by Biſhops, the
+<pb n="58" facs="tcp:108748:37"/>
+Fathers of the Church; though all true Magiſtrates are appointed by God, yet they muſt have their Com<g ref="char:EOLhyphen"/>miſſions from the King, who is the Supream Earthly Magiſtrate, and the Father of the Countrie. We muſt not now look to ſee men immediate<g ref="char:EOLhyphen"/>ly created, or Magiſtrates and Mini<g ref="char:EOLhyphen"/>ſters miraculouſly inſpired and cal<g ref="char:EOLhyphen"/>led; It is folly and preſumption to ſeek after either; for there is as much unwarrantableneſs in the one, as im<g ref="char:EOLhyphen"/>poſſibilitie in the other.</p>
+               <p>Yet our <hi>Jereboam, Cromwell,</hi> did not onely make Prieſts of the meaneſt of the people, but Juſtices of the baſeſt of Tradeſ-men. We reade that <hi>Julius Caeſar</hi> was ſtabbed to death with bodkins; I confident<g ref="char:EOLhyphen"/>ly believe that it were the bod<g ref="char:EOLhyphen"/>kins of Taylors, the Aules of Cob<g ref="char:EOLhyphen"/>lers, and the tooles of other Mechan<g ref="char:EOLhyphen"/>nicks, not the Swords of any true Nobilitie, or Gentrie, that murde<g ref="char:EOLhyphen"/>red our late <hi>Caeſar</hi> of Glorious me<g ref="char:EOLhyphen"/>mory.
+<pb n="59" facs="tcp:108748:37"/>
+And theſe blew-aprond Benchers were called, The Keepers of the Libertie of <hi>England,</hi> and yet enemies to Truth, diſturbers of Peace, perverters of Judgement, and blots in the <hi>Magna Charta,</hi> both of Humane and Divine Lawes.</p>
+               <p>Such a one was he who knew no other Law but that of the Sword, and deſired to act by an illegal arbi<g ref="char:EOLhyphen"/>trarie power. He was a great Ene<g ref="char:EOLhyphen"/>my to Fidlers, Wakes, and May-Poles; but poor beggers he perſe<g ref="char:EOLhyphen"/>cuted without mercie: For obſerve, <hi>There was none ſo cruel againſt beg<g ref="char:EOLhyphen"/>gars, as thoſe that made them ſo</hi>; When they came to his doore, he would ſhew them the Courteſie of the Town, a pair of Stocks or Whip<g ref="char:EOLhyphen"/>ing-poſt, and ſometimes his Charitie would prefer them to a Priſon: He lived frugally upon his ill-purchaſed Lands, foreſeeing perhaps the Change that was to follow: For his Coun<g ref="char:EOLhyphen"/>ſel he made uſe of his Clerk, and ſome
+<pb n="60" facs="tcp:108748:38"/>
+neighbouring Prieſt who came into the Pulpit, by the ſame ſword that brought him upon the Bench; And for his Almoner, he kept a great Ma<g ref="char:EOLhyphen"/>ſtiff Dog, who would open at a ſtran<g ref="char:EOLhyphen"/>ger as loud as a Son of the <hi>Kirk</hi> of <hi>Scotland,</hi> when he railes againſt the <hi>Prelates,</hi> and <hi>Common-Prayer-Booke.</hi> The baſeneſſe of his ſpirit was ſeen in his inſulting over Noble and Ho<g ref="char:EOLhyphen"/>nourable Perſons; for he made his betters to buckle, and comply, and taught even Lords themſelves to ſay <hi>Shibboleth</hi>; As for thoſe that ſtood out, he robd them both of their profits and pleaſures, and allowed them neither wealth nor recreation, but made their Houſes become their Priſons, and confined them to their own threſholds. Thus were the poor Gentlemen incloſed in a Magick Cir<g ref="char:EOLhyphen"/>cle, where they continued until this Devil was conjured down; For they durſt not ſo much as ride a hunting for fear of him, who (like <hi>Nimrod</hi>)
+<pb n="61" facs="tcp:108748:38"/>
+was himſelf the greateſt Hunter.</p>
+               <p>But now (bleſſed be God) that Game is over, and ſome of thoſe Dogs, who (like <hi>Acteons</hi> Hounds,) worried their Maſter, are already hanged, and the reſt have Clogs, and Collars; and as for his Worſhip, he is out of Commiſſion, abuſed, contemned, reviled and trampled upon by thoſe people, amongſt whom he lately acted his part, and played Juſtice <hi>Nimis</hi> to ſome, and <hi>Nihil</hi> to others.</p>
+               <p>The Caſe is altered, and Heaven hath now reſtored our Judges as at the firſt, and our Counſellours as at the beginning, and the Mechanical Magiſtrate is now made an Example, and not a Miniſter of Juſtice.</p>
+            </div>
+            <div type="part">
+               <pb n="62" facs="tcp:108748:39"/>
+               <head>A ſcandalous Miniſter.</head>
+               <p>TRue it is that we have all fail<g ref="char:EOLhyphen"/>ings, and every ſoul may read that word in <hi>Belſhazzars</hi> Hand-writ<g ref="char:EOLhyphen"/>ing, and apply it to himſelf; <hi>TEKEL, Thou art weighed in the ballance and found wanting</hi>; Yet there is an allow<g ref="char:EOLhyphen"/>ance for light Gold, and Charitie will abate us of ſome of our infirmities: There are degrees of wickedneſſe, as well as goodneſſe; and as one Star differs from another in Glory, ſo one ſin differs from another in Malig<g ref="char:EOLhyphen"/>nitie; Mens tranſgreſſions are like their Talents, ſome have more, and ſome leſſe; <hi>Chorazin</hi> and <hi>Beth<g ref="char:EOLhyphen"/>ſaida</hi>
+                  <g ref="char:punc">▪</g> out-ſinned <hi>Tyre</hi> and <hi>Sidon</hi>; There are ſcandals in Grain, and ſinnes of a deep Die, which not onely crie, but roare for venge<g ref="char:EOLhyphen"/>ance. There is no man lives with<g ref="char:EOLhyphen"/>out offence, and yet there are ſome
+<pb n="63" facs="tcp:108748:39"/>
+offences which make men unfit to live, as Treaſon, Murder, and others; There is no Miniſter without ſin, and yet there are ſome ſins which may make a miniſter unworthy to follow his Function. If a Lawyer be once proved to be faced like <hi>Janus,</hi> and to receive a Fee from the Plaintiffe, and a Bribe from the Defendant, he is preſently thrown over the Bar, and ſuffered no longer to Plead; and why may not a Prieſt, that pleads for God in his words, and yet ſollicits for the Devil in his actions, be caſt out of the Pulpit, and ſuffered no longer to preach? <hi>If thy right eye offend thee, pull it out, and caſt it from thee</hi>; If the Parſon who is, (or at leaſtwiſe ſhould be) the right eye of the Pariſh, be ſcandalous, let him be pull'd out and ejected, for better it is that one man ſhould ſuffer in temporal things, then that a whole Congregation of ſouls ſhould periſh for want of know<g ref="char:EOLhyphen"/>ledge.</p>
+               <p>
+                  <pb n="64" facs="tcp:108748:40"/>Now there are divers ſcandals, which brings ſtains to the Black-Coats of the Clergy; There is idle<g ref="char:EOLhyphen"/>neſs, ſwearing, Sabbath-breaking, and drunkenneſs, the old-faſhioned ſins of the <hi>Caſſock,</hi> which cauſed our late Eclipſe of <hi>Epiſcopacy</hi>; And there is Pride, Covetouſneſs, Hypocri<g ref="char:EOLhyphen"/>ſie, Envie, Malice, and others the new faſhioned ſins of the <hi>Jump,</hi> who have, (or I hope will cauſe) the downfal of that <hi>Dagon, Presbytery</hi>; And all theſe are abominations in the ſight of God burdens to the people, Black-patches in the face of Divini<g ref="char:EOLhyphen"/>tie, and blots in the Scutcheon of <hi>Levi.</hi>
+               </p>
+               <p>A ſcandalous Miniſter is a pro<g ref="char:EOLhyphen"/>phane ignorant dunce, whom his Pa<g ref="char:EOLhyphen"/>rents (looking more at the durty lu<g ref="char:EOLhyphen"/>cre of Tythes, then the weightineſs of the Calling) deſigned for the Prieſt-hood, although he were as un<g ref="char:EOLhyphen"/>fit for that work, as blind <hi>Tobit</hi> to be a Centinel, or <hi>Mephisboſheth</hi> to be a
+<pb n="65" facs="tcp:108748:40"/>
+Foot-poſt. In order to his prefer<g ref="char:EOLhyphen"/>ment, they ſent him to the <hi>
+                     <g ref="char:V">Ʋ</g>niverſi<g ref="char:EOLhyphen"/>tie,</hi> where he ate, drank, and ſlept, plaid a match or two at Foot-ball, ſtole a Pig, ran away from the <hi>Proctor,</hi> and ſtaid ſeven years to as much pur<g ref="char:EOLhyphen"/>poſe, as the King of <hi>France</hi> with twenty thouſand men, went up the Hill, and ſo came down agen. At length, making a Friend of <hi>Mammon</hi> he obtaines a Benefice, where, by his weak diſcharging of Cure, and his evil ordering of his Converſation, he made the Clergy begin to grow odious, and many Conſcientious people for want of bread at home, to run to other Churches, and if it were not to be had there, to turn Separatiſts, keep private Conventi<g ref="char:EOLhyphen"/>cles, liſten to Lay-Preachers, and at length come to be preachers them<g ref="char:EOLhyphen"/>ſelves; for his weakneſs made them too much preſume upon their own ſtrength; For becauſe many (through bribery and corruption) have ob<g ref="char:EOLhyphen"/>tained
+<pb n="64" facs="tcp:108748:41"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="65" facs="tcp:108748:41"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="66" facs="tcp:108748:42"/>
+an outward Call to the Mini<g ref="char:EOLhyphen"/>ſtry without Qualifications, it hath made others exerciſe their Qualifi<g ref="char:EOLhyphen"/>cations without a Call; Were it not for ſlothful Shepherds, the Wolves would be kept out; and were it not for ſuch pittiful <hi>Sir Johns,</hi> we ſhould not have ſo many Sectaries.</p>
+               <p>He is in his Pulpit <hi>A Cloud without water,</hi> a black thing hanging over the heads of the people, but there is no <hi>Doctrine drops from him like the Rain, nor Speech like the Dew upon the tender herbs</hi>; but a ſtrange hodge<g ref="char:EOLhyphen"/>podge diſcourſe, ſtuft with the husks and ſhells of Divinity, which in ſtead of Explaining the Scripture makes it more dark, like a thick Curtain drawn before a window, which keeps out the light, and makes thoſe that are in a Lethargie of ignorance to ſleep more ſecurely.</p>
+               <p>Many years had he not followed this trade, but (as though providence had had a mind to wean him from
+<pb n="67" facs="tcp:108748:42"/>
+the dugs of the Bel-ropes) he was by <hi>Cromwells</hi> Commiſſioners unlawful<g ref="char:EOLhyphen"/>ly, had hanged him up, I think they had neither committed Murder, nor he ſuffered Martyrdome.</p>
+               <p>But now thruſting himſelfe in a<g ref="char:EOLhyphen"/>mongſt thoſe learned and pious Di<g ref="char:EOLhyphen"/>vines, who ſuffered for Conſcience, Truth, and Loyalty, he is returned with a prodigious <hi>Omen</hi> to his poor neighbours; who figh to ſee the Ravens come back as well as Doves; he hath now poſſeſſion of his Pulpit, although it would be fitter for him to be amongſt the Bears in <hi>Paris-Gar<g ref="char:EOLhyphen"/>den:</hi> And blind <hi>Balaam</hi> is once more got into the ſaddle, but I beſhrow that hand, which held him the ſtir<g ref="char:EOLhyphen"/>rup.</p>
+               <p>And now (inſtead of promiſes of Reformation) he begins to Court his Pariſhioners with <hi>Rehoboams</hi> Com<g ref="char:EOLhyphen"/>plement, telling them that now his finger ſhall be thicker then his loyns
+<pb n="68" facs="tcp:108748:43"/>
+were before, and that now he may tipple, <hi>Cum Privilegio</hi>; and as for ſwearing, the Crime is Venial. And (laſtly) that nothing which can be charged againſt, him can make him un<g ref="char:EOLhyphen"/>capable of injoying his Benefice, ſave only if he ſpeak againſt the Perſons or power of Prelates.</p>
+               <p>Truly (Reader) If it were ſo, the Biſhops would ſtand as long as the Pageants in <hi>London</hi> ſtreets, and no longer; If they be zealous in puniſh<g ref="char:EOLhyphen"/>ing their own enemies, and ſlack in puniſhing the Enemies of God; If he that ſpeaks againſt an earthly Pre<g ref="char:EOLhyphen"/>late, muſt taſte of a Pillory, and have his ears pay for the boldneſs of his Tongue; and yet prophane ſwear<g ref="char:EOLhyphen"/>ers, who blaſpheme the name of Chriſt (who is the Biſhop of our ſouls) be mildly checkt with a <hi>Not ſo my ſons,</hi> and ſtill permitted to ſerve at the Holy Altar, we ſhall then ſee Lawn ſleeves once again whipped out of the Temple; if they will
+<pb n="69" facs="tcp:108748:43"/>
+not maintain the Honour and Glory of God, then God will not maintain theirs; but ſuffer their Glory to be taken from their heads, and their Honour to be laid in the duſt. It was a great Errour in old <hi>Eli</hi> to condemn Devotion for Drunkenneſſe; It would be a greater in his Succeſſors, to tolerate Drunkenneſs in ſtead of Devotion.</p>
+               <p>But let the Countrey have more honourable thoughts of the Reve<g ref="char:EOLhyphen"/>rend Hierarchy, and expect a ſudden winnowing and ſifting of the Mini<g ref="char:EOLhyphen"/>ſtrie: For both God in his Word, and the King in his Declaration, have promiſed us able Preachers; and the Overſeers muſt take care that their will be done.</p>
+            </div>
+            <div type="part">
+               <pb n="70" facs="tcp:108748:44"/>
+               <head>A Loyal Subject.</head>
+               <p>
+                  <hi>FEar God,</hi> and <hi>Honour the King,</hi> are two duties which the Apo<g ref="char:EOLhyphen"/>ſtle hath joyned together; and there<g ref="char:EOLhyphen"/>fore no man can ſeperate them. He that is not a good Subject, cannot be a good Chriſtian. <hi>He that loveth not his brother whom he hath ſeen, can not love God whom he hath not ſeen</hi>; and as in love, ſo in fear, honour, and obedience we may obſerve, that he that honoureth not the King, who is his viſible God, can not ſerve God who is his inviſible King.</p>
+               <p>It was a ſad complaint of Cardinal <hi>Woolſey,</hi> that he had been very dili<g ref="char:EOLhyphen"/>gent and careful to ſerve the King, but too unmindful and negligent to ſerve God; <hi>(I wiſh that his words be not fit for the mouths of ſome of our age)</hi> Yet the Modern Rebels made a ſhift to avoid that Rock, but loſt
+<pb n="71" facs="tcp:108748:44"/>
+themſelves in the Quick-ſands of Diſloyaltie; And pretended to ſerve God, whileſt they denied obedience to his Vice-gerent. And therefore if <hi>Woolſey</hi> ſerved the King, it was for his own baſe ends; And if our Co<g ref="char:EOLhyphen"/>venanting Zelots ſerved God, it was onely to make him a Patron of their Rebellion.</p>
+               <p>A loyal Subject is a good Chriſti<g ref="char:EOLhyphen"/>an who carefully and conſcienciouſ<g ref="char:EOLhyphen"/>ly obſerves both the firſt and the fifth Commandement, and carries a fair Correſpondence both to Heaven and Earth, not robbing God to pay <hi>Caeſar,</hi> but rendring honour, fear, tribute, homage, and ſervice to whom they are due.</p>
+               <p>It follows then, He is no ſwearer, for therein he would diſhonour the Majeſtie of Heaven, and pull down a judgement upon the Kingdome; <hi>Becauſe of Oaths the Land mourns,</hi> And where the Land mourns, I know not how the King ſhould be
+<pb n="72" facs="tcp:108748:45"/>
+merry; He who ſpeaks treaſonable words deſerves death, then what will become of ſwearers and blaſ<g ref="char:EOLhyphen"/>phemers, who dayly ſpeak treaſona<g ref="char:EOLhyphen"/>ble words againſt the King above.</p>
+               <p>Neither is he one of thoſe <hi>Pot-Champions,</hi> who have nothing to manifeſt their faithfulneſs, but that they talked of his Majeſtie in the Ta<g ref="char:EOLhyphen"/>vern, he remembers the King in his Prayers, oftner then in his Cups; and is very ſenſile of that Cup, which his Saviour and his Soveraign both drank of, and hath choſen rather to pledge them in a bitter draught of Affliction ſpiced with ſequeſtration and impriſonment, and having a block or Gallows at the bottome; then to tipple in thoſe baſe Elements of Wine and Beer; for to drink bowls and glaſſes of Sack, will ſooner in<g ref="char:EOLhyphen"/>creaſe the wealth of the King of <hi>Spain,</hi> then the health of the King of <hi>England.</hi>
+               </p>
+               <p>In a word, (although it may be
+<pb facs="tcp:108748:45" rendition="simple:additions"/>
+more eaſie to ſhew you what he is not, then what he is) he is a pru<g ref="char:EOLhyphen"/>dent Counſellour, a faithful Infor<g ref="char:EOLhyphen"/>mer, and a valiant Souldier, like <hi>Joſeph</hi> to King <hi>Pharaoh,</hi> like <hi>Morde<g ref="char:EOLhyphen"/>ca</hi> to King <hi>Ahaſhuerus,</hi> and like <hi>Monke</hi> to King <hi>Charles.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>A Male content.</head>
+               <p>IS a thing quite<g ref="char:punc">▪</g> contrary to a Temporizer, for he ſwimmes al<g ref="char:EOLhyphen"/>wayes againſt the Tide: His chief end is that he may be taken notice of in the World; and (like <hi>Theu<g ref="char:EOLhyphen"/>das</hi>) he boaſteth himſelfe <hi>to be ſome body</hi>; he is an Enemy both to Civil and Religious Ordinances, and is of<g ref="char:EOLhyphen"/>fended at that which even God him<g ref="char:EOLhyphen"/>ſelf hath ſet up: He was not pleaſed in the dayes of the Old King, nor contented in the time of Tyranny, neither is he ſatisfied now, but ha<g ref="char:EOLhyphen"/>ving ſeen two dayes, and a night
+<pb n="74" facs="tcp:108748:46"/>
+he hath ſtill continued in an unquiet condition, for in the day time the heat of the Sun hath moleſt<g ref="char:EOLhyphen"/>ed him; and in the night he hath barked at the moon;</p>
+               <p>He is not altogether void of learn<g ref="char:EOLhyphen"/>ing; but hath Philoſophy enough to make him an Atheiſt; And Divi<g ref="char:EOLhyphen"/>nitie to ſerve him to take Gods Name in vain; Yet he is a meer child in Knowledge, continually crying and whining, and knows not what he would have. His ignorance is joyned with willfulneſſe, which makes it beyond the cure of a Peſtel Morter.</p>
+               <p>He hath been uſed to Cant very Highly, which hath endangered (if not effected) the cropping his lugs; but ſuch a poor puniſhment doth but harden him in his folly, for they cannot circumciſe his heart with his ears.</p>
+               <p>In ſhort, he is a mere <hi>Lilburn,</hi> or <hi>King-Fiſher,</hi> Who, though you
+<pb n="75" facs="tcp:108748:46"/>
+ſhould hang him up, would turn his breaſt againſt the wind.</p>
+            </div>
+            <div type="part">
+               <head>A noble Spirit.</head>
+               <p>IS one that hath really attained to that which King <hi>Agrippa</hi> was al<g ref="char:EOLhyphen"/>moſt perſwaded unto, that is <hi>Chri<g ref="char:EOLhyphen"/>ſtianitie,</hi> which is a kind of Nobilitie that comes by the ſecond birth much more excellent then that of blood; yet if he be of an honorable Family, it adds luſtre to his Religion, and makes his vertues more conſpicuous; However he hath a more then ordi<g ref="char:EOLhyphen"/>nary birth-right, not only above all other Creatures as a Man, but above other men as a Chriſtian; and is poſ<g ref="char:EOLhyphen"/>ſeſſed of not only the one Talent that is Natural, Reaſon, and the two, that is the Law of <hi>Moſes</hi>; but alſo of the five, that is the Goſpel of Chriſt; Thus by Adoption he is the eldeſt brother and his Portion is more then
+<pb n="76" facs="tcp:108748:47"/>
+double the <hi>Jews</hi> and the <hi>Heathens.</hi>
+               </p>
+               <p>And by the improvement of theſe Talents, he is grown very rich in grace, having found out and purcha<g ref="char:EOLhyphen"/>ſed that Treaſure which is hid in a Field, redeemed his time, renued his Covenant, and bought the Truth, which is better then Riches; better then Riches indeed, for it is a ſure ſtock, not ſubject to the corruption of Moth and Ruſt, or the violence of Thieves and Robbers, but beyond the Reach of <hi>Rumps,</hi> Devils, or Se<g ref="char:EOLhyphen"/>queſtrators.</p>
+               <p>He Trafficks by his bountie to the poor, as Merchants by Bills of Ex<g ref="char:EOLhyphen"/>change, freely disburſing part of his Eſtate here, well knowing he ſhall receive it a thouſand fold hereafter; Nay more, he hath learned the high<g ref="char:EOLhyphen"/>eſt point of Religion, that is, <hi>To doe good to them who doe evil to him</hi>; and this is Chriſtians <hi>Vnguentum Armen<g ref="char:EOLhyphen"/>tarium,</hi> which heals the Patient by being applied unto the inſtrument wherewith he is wounded.</p>
+               <p>
+                  <pb n="77" facs="tcp:108748:47"/>To conclude, he is compounded of an Ounce of Serpent, and a Pound of Dove, <hi>Martha,</hi> and <hi>Mary,</hi> a Pro<g ref="char:EOLhyphen"/>teſtant Faith, and a Roman Catholick Charitle.</p>
+            </div>
+            <div type="part">
+               <head>A bad Wife.</head>
+               <p>WHen the common enemy of Mankind, Satan had obtained a commiſſion from the high Court of Heaven to afflict poor <hi>Job</hi>; he took away his Sheep, Camels, Aſſes, Oxen, Servants, and Children, but tis ob<g ref="char:EOLhyphen"/>ſerved he left him that (curſed thing) they call his wife; Oh the ſubtilty of the old Fox! Who in every parti<g ref="char:EOLhyphen"/>cular affliction ſlew all his ſervants ſave only one whom he left to grieve him wiah the news of his loſſes, and ſo likewiſe in his general calamity ſlew all his neer relations but only his Wife, whom he left to vex and torment him, for he thought he did
+<pb n="78" facs="tcp:108748:48"/>
+him as much injury in leaving her as in taking his children.</p>
+               <p>When our firſt Parents made them<g ref="char:EOLhyphen"/>ſelves Garments of Fig leaves to co<g ref="char:EOLhyphen"/>ver their nakedneſſe, in what faſhion they were, I cannot tell; but one tranſlation cals them <hi>Aprons,</hi> and an other <hi>Breeches</hi>; and no marvaile, for in <hi>London</hi> it is common for Men to weare <hi>Aprons,</hi> but more common for Women to weare <hi>Breeches.</hi>
+               </p>
+               <p>When Apprentices have ſerved out their time, and are made free, they uſually ſay they have buried their Wives; It ſeems then they ac<g ref="char:EOLhyphen"/>count their apprentiſhip a marriage, if ſo let the words be <hi>termini conver<g ref="char:EOLhyphen"/>tibiles,</hi> for (without queſtion) mar<g ref="char:EOLhyphen"/>riage is an apprentiſhip.</p>
+               <p>In a word, if you would know what an evil Woman is, ask the Citi<g ref="char:EOLhyphen"/>zens of <hi>London,</hi> they can beſt inform you; ſhe is a great burden, and a grie<g ref="char:EOLhyphen"/>vous croſs, which none knows but he that hath her.</p>
+            </div>
+            <div type="part">
+               <pb n="79" facs="tcp:108748:48"/>
+               <head>The R— Parliament.</head>
+               <p>WAs the dregs and droſs of a Senate, a ſmall number met together in the name of the — and doubtleſs he was in the midſt of them; At <hi>Weſtminſter</hi> they kept Shop, and hired ſome wide-mouth'd <hi>Presbyters</hi> to Cry in the Citie and Countrie Pulpits what Wares they had to ſell, <hi>viz Religion</hi> and <hi>Reforma<g ref="char:EOLhyphen"/>tion;</hi> and two things were carried before the Speaker, <hi>The Mace, and the good Old Cauſe</hi>: The one he had to ſhew his Authoritie, and the other to cover his—. The <hi>Mace</hi> was like a golden or ſilver Dream, which commonly Uſhers in ill Luck, and <hi>The good Old Cauſe,</hi> like the Curtain in the Frontiſpiece of <hi>Argalus</hi> and <hi>Parthenia,</hi> which hides the Argument and Contents of the book.</p>
+               <p>
+                  <pb n="80" facs="tcp:108748:49"/>But at length <hi>The Myſtery of Iniqui<g ref="char:EOLhyphen"/>tie appeared in its colours,</hi> and all their promiſes proved <hi>like the Heatheniſh Oracles</hi> capable of a double ſignifica<g ref="char:EOLhyphen"/>tion, for they did according to their pretence make the King glorious, but after an inglorious manner; wicked<g ref="char:EOLhyphen"/>ly accompliſhing that, which <hi>Caligu<g ref="char:EOLhyphen"/>la</hi> ſinfully deſired a general Deſtru<g ref="char:EOLhyphen"/>ction at one blow, a Decollation both of Prince and People.</p>
+               <p>Thus <hi>England,</hi> that had for many hundred years enjoyed the bleſſings of God, in the happy conſtitution and lawful name of <hi>Kingdome</hi> was (according to the Principles of Dip<g ref="char:EOLhyphen"/>pers) rebaptized in bloud, Chriſt<g ref="char:EOLhyphen"/>ned <hi>Common-wealth,</hi> ſigned with the ſign of the Red-Croſs, that ſhe might not be aſhamed to fight under the Banners of diſloyal <hi>Regicides.</hi> Then was wee like <hi>Hugh Peters</hi> his ſtrange Beaſt, <hi>Monſtrum Horrendum,</hi> a thing like a Kingdome, and yet no King<g ref="char:EOLhyphen"/>dome; there was more legs in one
+<pb facs="tcp:108748:49"/>
+ſide then the other, and the tail ſtood where the head ſhould ſtand; then had not the Tower ſo many ſavage Creatures as the <hi>Parliament</hi> Houſe, and the Serpents skin was not ſo monſtrous a ſight, as the <hi>Scottiſh</hi> Co<g ref="char:EOLhyphen"/>venant.</p>
+               <p>A long time they ſate; but to what purpoſe? To weave Spiders webs, &amp; to hatch Cockatrice-egs; They made fine Cobweb-lawes, that would catch little Felons, but would not hold Grand-Traitors? Pettie thieves did ſometimes ſtand at the Barre, whileſt great ones ſate upon the Bench; and blind Juſtice prepared a pair of Stocks for one ſort of Drunk<g ref="char:EOLhyphen"/>ards, and a Throne for another; as though it were a greater ſin to be drunk with Wine, then Blood.</p>
+               <p>But herein was the height of their malice and crueltie, that as they had deſtroyed Gods Image in their own ſouls and Mans Image in the KINGS Body, ſo they thought
+<pb facs="tcp:108748:50"/>
+it neceſſary to leave our <hi>Caeſars</hi> Image upon the pieces of money, and for their Coyne, deviſed a new ſtamp, a new Inſcription, <hi>Deus no<g ref="char:EOLhyphen"/>biſcum</hi>: no wonder, It was a right <hi>Motto,</hi> for the <hi>Silver</hi> was their <hi>Ema<g ref="char:EOLhyphen"/>nuel,</hi> and of the <hi>Moneyes</hi> they might truly ſay, <hi>God with us.</hi>
+               </p>
+               <p>But Heaven was juſt; and for all theſe things God called them to an account. They who for a long time had uſed tedious Prayers, as ſo many Graces before their meals, of Wid<g ref="char:EOLhyphen"/>dowes houſes; They which had ſwallowed up ſuch ſweet morſels of unjuſtly ſequeſtred lands, they who were intoxicated with the Wine of the Grapes of <hi>Naboths</hi> Vineyard, be<g ref="char:EOLhyphen"/>gan now to ſurfet, fell extream ſick, and were neceſſitated to one of theſe Remedies, either the <hi>Halter,</hi> or the <hi>Act of Indempnitie.</hi>
+               </p>
+               <p>As for thoſe who died in their beds, and had their Trials adjourn<g ref="char:EOLhyphen"/>ed till the Day of Judgement; al<g ref="char:EOLhyphen"/>though
+<pb facs="tcp:108748:50"/>
+thier Deaths were not An<g ref="char:EOLhyphen"/>ſwerable to their deſerts, yet they were ſuitable to their lives, and their latter end, were like their be<g ref="char:EOLhyphen"/>ginning, and the reſt of their acti<g ref="char:EOLhyphen"/>ons. They lived and died notorious thieves, for as in their life-time they plundered the <hi>Church,</hi> ſo at their death they rob'd the <hi>Gallows.</hi>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
